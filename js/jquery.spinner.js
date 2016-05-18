@@ -240,6 +240,9 @@
       else if (options === 'spin' && value) {
         data.spinning.spin(value);
       }
+      else if (options === 'max' && value) {
+       data.spinning.max = value;
+      }
     });
   };
 
